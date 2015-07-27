@@ -1,0 +1,30 @@
+---
+title: 'POLS3003: Data Science and Big Data Analysis'
+subtitle: 'Week 3: Probability and Basic Statistical Foundations'
+output: html_document
+bibliography: "../bibliography/bibliography.bib"
+topics:
+- reading: '@james2013 [Chapter 5]'
+  lab: Chapter5_Lab
+  solutions: Chapter5_Solutions
+---
+
+### Topics
+- Basic probability and statistics
+- Binomial and Normal distributions
+- Resampling
+- Bootstrapping
+
+### Required Reading
+- @james2013 [Chapter 5]
+
+### Lab
+
+[Chapter 5 Lab](../ISLR/Chapter5_Lab.html)
+
+### Solutions
+
+[Chapter 5 Solutions](../ISLR/Chapter5_Solutions.html)
+
+### References
+

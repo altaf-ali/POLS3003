@@ -1,0 +1,63 @@
+---
+title: 'POLS3003: Data Science and Big Data Analysis'
+output: html_document
+bibliography: "./bibliography/bibliography.bib"
+---
+
+```{r echo=FALSE}
+library(plyr)
+library(dplyr, warn.conflicts=FALSE)
+library(yaml)
+library(printr)
+
+# hardcode a few things for now
+base_url = "http://www.ucl.ac.uk/~uctqiax"
+ISLR = "ISLR"
+course_id = "POLS3003"
+source_dir = "~/Projects/POLS3003/modules"
+
+yaml_header <- function(filename) {
+  lines = readLines(filename)
+  delimiters = grep("^---\\s*$", lines)
+  front_matter = lines[(delimiters[1]):(delimiters[2])]
+  header = paste(front_matter[2:(length(front_matter) - 1)], collapse = "\n")
+  data = yaml.load(header)
+  data['module'] = unlist(strsplit(basename(filename), "\\."))[1]
+  data
+}
+
+contents = lapply(Sys.glob(file.path(source_dir, "*.Rmd")), yaml_header)
+
+df = rbind.fill(lapply(contents, function(f) {
+  as.data.frame(Filter(Negate(is.null), f))
+}))
+
+make_url <- function(prefix, path) {
+  sprintf("%s/%s/%s.html", base_url, prefix, path)  
+}
+
+#module_to_url <- function(module) {
+#  make_url(sprintf("%s/%s.html", course, module))
+#}
+
+linkify <- function(text, url) {
+  sprintf("[%s](%s)", text, url)
+}
+
+linkify_icon <- function(img, url) {
+  linkify(sprintf("<img src='./img/%s' width=20>", img), url)
+}
+
+df %>%
+  rename(Topic = subtitle,
+         Reading = topics.reading,
+         Lab = topics.lab,
+         Solutions = topics.solutions) %>% 
+  mutate(Topic = linkify(Topic, make_url(course_id, module)),
+         Lab = ifelse(is.na(Lab), "", linkify_icon("lab.png", make_url(ISLR, Lab))),
+         Solutions = ifelse(is.na(Solutions), "", linkify_icon("solutions.png", make_url(ISLR, Solutions)))) %>%
+  select(Topic, Lab, Solutions)
+
+```
+
+
