@@ -1,0 +1,17 @@
+## Week 5. Generalized Linear Regression
+
+### Topics
+- Logistic Regression
+- GAMs
+
+### Chapter 4. Classification
+
+- [Lab](../ISLR/chapter4/lab.html)
+- [Solutions](../ISLR/chapter4/solutions.html)
+
+
+### Chapter 7. Moving Beyond Linearity
+
+- [Lab](../ISLR/chapter7/lab.html)
+- [Solutions](../ISLR/chapter7/solutions.html)
+
