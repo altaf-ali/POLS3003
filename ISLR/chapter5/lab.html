@@ -1,0 +1,850 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Lab | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.2.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../ISLR/chapter5/solutions.html" />
+    
+    
+    <link rel="prev" href="../../week3/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="3.1.1" data-basepath="../.." data-revision="Mon Aug 03 2015 17:32:12 GMT+0100 (BST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="week1/index.html">
+            
+            <span><b>1.</b> Week 1</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="week2/index.html">
+            
+            <span><b>2.</b> Week 2</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="week3/index.html">
+            
+                
+                    <a href="../../week3/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Week 3
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="week3/index.html">
+            
+                
+                    <a href="../../week3/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Chapter 5. Resampling Methods
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="3.1.1" data-path="ISLR/chapter5/lab.html">
+            
+                
+                    <a href="../../ISLR/chapter5/lab.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                        Lab
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="ISLR/chapter5/solutions.html">
+            
+                
+                    <a href="../../ISLR/chapter5/solutions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.2.</b>
+                        
+                        Solutions
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="week4/index.html">
+            
+                
+                    <a href="../../week4/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Week 4
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="week4/index.html">
+            
+                
+                    <a href="../../week4/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Chapter 3. Linear Regression
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="ISLR/chapter3/lab.html">
+            
+                
+                    <a href="../../ISLR/chapter3/lab.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.1.</b>
+                        
+                        Lab
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="ISLR/chapter3/solutions.html">
+            
+                
+                    <a href="../../ISLR/chapter3/solutions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.2.</b>
+                        
+                        Solutions
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="week5/index.html">
+            
+                
+                    <a href="../../week5/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Week 5
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="week4/index.html">
+            
+                
+                    <a href="../../week4/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        Chapter 4. Classification
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="ISLR/chapter4/lab.html">
+            
+                
+                    <a href="../../ISLR/chapter4/lab.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.</b>
+                        
+                        Lab
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="ISLR/chapter4/solutions.html">
+            
+                
+                    <a href="../../ISLR/chapter4/solutions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.</b>
+                        
+                        Solutions
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="week5/index.html">
+            
+                
+                    <a href="../../week5/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        Chapter 7. Moving Beyond Linearity
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="ISLR/chapter7/lab.html">
+            
+                
+                    <a href="../../ISLR/chapter7/lab.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.1.</b>
+                        
+                        Lab
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="ISLR/chapter7/solutions.html">
+            
+                
+                    <a href="../../ISLR/chapter7/solutions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.2.</b>
+                        
+                        Solutions
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="week6/index.html">
+            
+            <span><b>6.</b> Week 6</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="week7/index.html">
+            
+            <span><b>7.</b> Week 7</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="week8/index.html">
+            
+            <span><b>8.</b> Week 8</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="week9/index.html">
+            
+            <span><b>9.</b> Week 9</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="week10/index.html">
+            
+            <span><b>10.</b> Week 10</span>
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="5-3-lab-cross-validation-and-the-bootstrap">5.3 Lab: Cross-Validation and the Bootstrap</h2>
+<p>Load the <a href="http://bit.ly/R_ISLR" target="_blank">ISLR package</a> to get started:</p>
+<pre><code class="lang-r"><span class="hljs-keyword">library</span>(ISLR)
+</code></pre>
+<h3 id="5-3-1-the-validation-set-approach">5.3.1 The Validation Set Approach</h3>
+<p>We use the <a href="http://bit.ly/ISLR_Auto" target="_blank">Auto</a> dataset in this exercise which contains 392 observations. We can use <a href="http://bit.ly/R_head" target="_blank">head()</a> to see what the <a href="http://bit.ly/ISLR_Auto" target="_blank">Auto</a> dataset looks like.</p>
+<pre><code class="lang-r"><span class="hljs-keyword">attach</span>(Auto)
+head(Auto)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">cylinders</th>
+<th style="text-align:right">displacement</th>
+<th style="text-align:right">horsepower</th>
+<th style="text-align:right">weight</th>
+<th style="text-align:right">acceleration</th>
+<th style="text-align:right">year</th>
+<th style="text-align:right">origin</th>
+<th style="text-align:left">name</th>
+<th style="text-align:left">mpg01</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">307</td>
+<td style="text-align:right">130</td>
+<td style="text-align:right">3504</td>
+<td style="text-align:right">12.0</td>
+<td style="text-align:right">70</td>
+<td style="text-align:right">1</td>
+<td style="text-align:left">chevrolet chevelle malibu</td>
+<td style="text-align:left">0</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">350</td>
+<td style="text-align:right">165</td>
+<td style="text-align:right">3693</td>
+<td style="text-align:right">11.5</td>
+<td style="text-align:right">70</td>
+<td style="text-align:right">1</td>
+<td style="text-align:left">buick skylark 320</td>
+<td style="text-align:left">0</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">318</td>
+<td style="text-align:right">150</td>
+<td style="text-align:right">3436</td>
+<td style="text-align:right">11.0</td>
+<td style="text-align:right">70</td>
+<td style="text-align:right">1</td>
+<td style="text-align:left">plymouth satellite</td>
+<td style="text-align:left">0</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">304</td>
+<td style="text-align:right">150</td>
+<td style="text-align:right">3433</td>
+<td style="text-align:right">12.0</td>
+<td style="text-align:right">70</td>
+<td style="text-align:right">1</td>
+<td style="text-align:left">amc rebel sst</td>
+<td style="text-align:left">0</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">302</td>
+<td style="text-align:right">140</td>
+<td style="text-align:right">3449</td>
+<td style="text-align:right">10.5</td>
+<td style="text-align:right">70</td>
+<td style="text-align:right">1</td>
+<td style="text-align:left">ford torino</td>
+<td style="text-align:left">0</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">429</td>
+<td style="text-align:right">198</td>
+<td style="text-align:right">4341</td>
+<td style="text-align:right">10.0</td>
+<td style="text-align:right">70</td>
+<td style="text-align:right">1</td>
+<td style="text-align:left">ford galaxie 500</td>
+<td style="text-align:left">0</td>
+</tr>
+</tbody>
+</table>
+<p>For this exercise, we first select a random sample of 196 out of 392 observations. We initialize the random number generator with a seed using <a href="http://bit.ly/R_set_seed" target="_blank">set.seed()</a> to ensure that repeated runs produce consistent results.</p>
+<pre><code class="lang-r">set.seed(<span class="hljs-number">1</span>)
+train &lt;- sample(<span class="hljs-number">392</span>, <span class="hljs-number">196</span>)
+</code></pre>
+<p>We then estimate the effects of <strong>horsepower</strong> on <strong>mpg</strong> by fitting a linear regression model with <a href="http://bit.ly/R_lm" target="_blank">lm()</a> on the selected subset</p>
+<pre><code class="lang-r">lm.fit &lt;- lm(mpg ~ horsepower, data = Auto, subset = train)
+</code></pre>
+<p>Next, we calculate the mean squared error (MSE) for the remaining 196 observations in the validation set. The training subset is excluded from the MSE calculation using <strong>-train</strong> index. </p>
+<pre><code class="lang-r">mse &lt;- mean((mpg - predict(lm.fit, Auto))[-train]^<span class="hljs-number">2</span>)
+mse
+</code></pre>
+<pre><code>## [1] 26.14142
+</code></pre><p>The error rate for a linear model is 26.1414212. We can also fit higher degree polynomials with the <a href="http://bit.ly/R_poly" target="_blank">poly()</a> function. First, let&apos;s try a quadratic model.</p>
+<pre><code class="lang-r">lm.fit2 &lt;- lm(mpg ~ poly(horsepower, <span class="hljs-number">2</span>), data = Auto, subset = train)
+mse2 &lt;- mean((mpg - predict(lm.fit2, Auto))[-train]^<span class="hljs-number">2</span>)
+mse2
+</code></pre>
+<pre><code>## [1] 19.82259
+</code></pre><p>Quadratic regression performs better than a linear model and reduces the error rate to 19.822585. Let&apos;s also try a cubic model.</p>
+<pre><code class="lang-r">lm.fit3 &lt;- lm(mpg ~ poly(horsepower, <span class="hljs-number">3</span>), data = Auto, subset = train)
+mse3 &lt;- mean((mpg - predict(lm.fit3, Auto))[-train]^<span class="hljs-number">2</span>)
+mse3
+</code></pre>
+<pre><code>## [1] 19.78252
+</code></pre><p>We can fit these models on a different subset of training observations by initializing the random number generator with a different seed.</p>
+<pre><code class="lang-r">set.seed(<span class="hljs-number">2</span>)
+train &lt;- sample(<span class="hljs-number">392</span>, <span class="hljs-number">196</span>)
+lm.fit &lt;- lm(mpg ~ horsepower, subset = train)
+
+mean((mpg - predict(lm.fit, Auto))[-train]^<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code>## [1] 23.29559
+</code></pre><pre><code class="lang-r">lm.fit2 &lt;- lm(mpg ~ poly(horsepower, <span class="hljs-number">2</span>), data = Auto, subset = train)
+mean((mpg - predict(lm.fit2, Auto))[-train]^<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code>## [1] 18.90124
+</code></pre><pre><code class="lang-r">lm.fit3 &lt;- lm(mpg ~ poly(horsepower, <span class="hljs-number">3</span>), data = Auto, subset = train)
+mean((mpg - predict(lm.fit3, Auto))[-train]^<span class="hljs-number">2</span>)
+</code></pre>
+<pre><code>## [1] 19.2574
+</code></pre><p>The error rates are slightly different from our initial training sample but the results are consistent with previous findings. A quadratic model performs better than a linear model but there is no significant improvement when we use a cubic model.</p>
+<h2 id="5-3-2-leave-one-out-cross-validation">5.3.2 Leave-One-Out Cross-Validation</h2>
+<p>The <a href="http://bit.ly/R_glm" target="_blank">glm()</a> function offers a generalization of the linear model while allowing for different link functions and error distributions other than gaussian. By default, <a href="http://bit.ly/R_glm" target="_blank">glm()</a> simply fits a linear model identical to the one estimated with <a href="http://bit.ly/R_lm" target="_blank">lm()</a>.</p>
+<pre><code class="lang-r">glm.fit &lt;- glm(mpg ~ horsepower, data = Auto)
+coef(glm.fit)
+</code></pre>
+<pre><code>## (Intercept)  horsepower 
+##  39.9358610  -0.1578447
+</code></pre><pre><code class="lang-r">lm.fit &lt;- lm(mpg ~ horsepower, data = Auto)
+coef(lm.fit)
+</code></pre>
+<pre><code>## (Intercept)  horsepower 
+##  39.9358610  -0.1578447
+</code></pre><p>The <a href="http://bit.ly/R_glm" target="_blank">glm()</a> function can be used with <a href="http://bit.ly/R_cv_glm" target="_blank">cv.glm()</a> to estimate k-fold cross-validation prediction error.</p>
+<pre><code class="lang-r"><span class="hljs-keyword">library</span>(boot)
+glm.fit &lt;- glm(mpg ~ horsepower, data = Auto)
+cv.err &lt;- cv.glm(Auto, glm.fit)
+</code></pre>
+<pre><code>## Error in model.frame.default(formula = mpg ~ horsepower, data = structure(list(: variable lengths differ (found for &apos;horsepower&apos;)
+</code></pre><pre><code class="lang-r">cv.err$delta
+</code></pre>
+<pre><code>## Error in eval(expr, envir, enclos): object &apos;cv.err&apos; not found
+</code></pre><p>The returned value from <a href="http://bit.ly/R_cv_glm" target="_blank">cv.glm()</a> contains a <em>delta</em> vector of components -- the raw cross-validation estimate and the adjusted cross-validation estimate respectively.</p>
+<p>We can repeat this process in a <a href="http://bit.ly/R_Control" target="_blank">for()</a> loop to compare the cross-validation error of higher-order polynomials. The following example estimates the polynomial fit of the order 1 through 5 and stores the result in a <em>cv.error</em> vector.</p>
+<pre><code class="lang-r">cv.error &lt;- rep(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>)
+<span class="hljs-keyword">for</span> (i <span class="hljs-keyword">in</span> <span class="hljs-number">1</span>:<span class="hljs-number">5</span>) {
+    glm.fit &lt;- glm(mpg ~ poly(horsepower, i), data = Auto)
+    cv.error[i] &lt;- cv.glm(Auto, glm.fit)$delta[<span class="hljs-number">1</span>]
+}
+</code></pre>
+<pre><code>## Error in model.frame.default(formula = mpg ~ poly(horsepower, i), data = structure(list(: variable lengths differ (found for &apos;poly(horsepower, i)&apos;)
+</code></pre><pre><code class="lang-r">cv.error
+</code></pre>
+<pre><code>## [1] 0 0 0 0 0
+</code></pre><h2 id="5-3-3-k-fold-cross-validation">5.3.3 k-Fold Cross-Validation</h2>
+<p>In addition to LOOCV, <a href="http://bit.ly/R_cv_glm" target="_blank">cv.glm()</a>  can also be used to run k-fold cross-validation. In the following example, we estimate the cross-validation error of polynomials of the order 1 through 10 using k-fold cross-validation.</p>
+<pre><code class="lang-r">set.seed(<span class="hljs-number">17</span>)
+cv.error.10 &lt;- rep(<span class="hljs-number">0</span>, <span class="hljs-number">10</span>)
+<span class="hljs-keyword">for</span> (i <span class="hljs-keyword">in</span> <span class="hljs-number">1</span>:<span class="hljs-number">10</span>) {
+    glm.fit &lt;- glm(mpg ~ poly(horsepower, i), data = Auto)
+    cv.error.10[i] &lt;- cv.glm(Auto, glm.fit, K = <span class="hljs-number">10</span>)$delta[<span class="hljs-number">1</span>]
+}
+</code></pre>
+<pre><code>## Error in model.frame.default(formula = mpg ~ poly(horsepower, i), data = structure(list(: variable lengths differ (found for &apos;poly(horsepower, i)&apos;)
+</code></pre><pre><code class="lang-r">cv.error.10
+</code></pre>
+<pre><code>##  [1] 0 0 0 0 0 0 0 0 0 0
+</code></pre><p>In both LOOCV and k-fold cross-validation, we get lower test errors with quadratic models than linear models, but cubic and higher-order polynomials don&apos;t offer any significant improvement.</p>
+<h2 id="5-3-4-the-bootstrap">5.3.4 The Bootstrap</h2>
+<p>In order to perform bootstrap analysis, we first create an <em>alpha.fn()</em> for estimating $\alpha$.</p>
+<pre><code class="lang-r">alpha.fn &lt;- <span class="hljs-keyword">function</span>(data, index) {
+    X &lt;- data$X[index]
+    Y &lt;- data$Y[index]
+    <span class="hljs-keyword">return</span>((var(Y) - cov(X, Y))/(var(X) + var(Y) - <span class="hljs-number">2</span> * cov(X, Y)))
+}
+</code></pre>
+<p>The following example estimates $\alpha$ using observations 1 through 100 from the <a href="http://bit.ly/ISLR_Portfolio" target="_blank">Portfolio</a> dataset.</p>
+<pre><code class="lang-r">alpha.fn(Portfolio, <span class="hljs-number">1</span>:<span class="hljs-number">100</span>)
+</code></pre>
+<pre><code>## [1] 0.5758321
+</code></pre><p>The subset from our dataset can also be obtained with the <a href="http://bit.ly/R_sample" target="_blank">sample()</a> function as previously discussed.</p>
+<pre><code class="lang-r">set.seed(<span class="hljs-number">1</span>)
+alpha.fn(Portfolio, sample(<span class="hljs-number">100</span>, <span class="hljs-number">100</span>, replace = <span class="hljs-literal">T</span>))
+</code></pre>
+<pre><code>## [1] 0.5963833
+</code></pre><p>Instead of manually repeating this procedure with different samples from our dataset, we can automate this process with the <a href="http://bit.ly/R_boot" target="_blank">boot()</a> function as shown below.</p>
+<pre><code class="lang-r">boot(Portfolio, alpha.fn, R = <span class="hljs-number">1000</span>)
+</code></pre>
+<pre><code>## 
+## ORDINARY NONPARAMETRIC BOOTSTRAP
+## 
+## 
+## Call:
+## boot(data = Portfolio, statistic = alpha.fn, R = 1000)
+## 
+## 
+## Bootstrap Statistics :
+##      original        bias    std. error
+## t1* 0.5758321 -7.315422e-05  0.08861826
+</code></pre><p>We can apply the same bootstrap approach to the <a href="http://bit.ly/ISLR_Auto" target="_blank">Auto</a> dataset by creating a bootstrap function that fits a linear model to our dataset.</p>
+<pre><code class="lang-r">boot.fn &lt;- <span class="hljs-keyword">function</span>(data, index) 
+  <span class="hljs-keyword">return</span>(coef(lm(mpg ~ horsepower, data = data, subset = index)))
+boot.fn(Auto, <span class="hljs-number">1</span>:<span class="hljs-number">392</span>)
+</code></pre>
+<pre><code>## (Intercept)  horsepower 
+##  39.9358610  -0.1578447
+</code></pre><p>We can run this manually on different samples from the dataset.</p>
+<pre><code class="lang-r">set.seed(<span class="hljs-number">1</span>)
+boot.fn(Auto, sample(<span class="hljs-number">392</span>, <span class="hljs-number">392</span>, replace = <span class="hljs-literal">T</span>))
+</code></pre>
+<pre><code>## (Intercept)  horsepower 
+##  38.7387134  -0.1481952
+</code></pre><pre><code class="lang-r">boot.fn(Auto, sample(<span class="hljs-number">392</span>, <span class="hljs-number">392</span>, replace = <span class="hljs-literal">T</span>))
+</code></pre>
+<pre><code>## (Intercept)  horsepower 
+##  40.0383086  -0.1596104
+</code></pre><p>And we can also automate this by fitting the model on 1000 replicates from our dataset.</p>
+<pre><code class="lang-r">boot(Auto, boot.fn, <span class="hljs-number">1000</span>)
+</code></pre>
+<pre><code>## 
+## ORDINARY NONPARAMETRIC BOOTSTRAP
+## 
+## 
+## Call:
+## boot(data = Auto, statistic = boot.fn, R = 1000)
+## 
+## 
+## Bootstrap Statistics :
+##       original      bias    std. error
+## t1* 39.9358610  0.02972191 0.860007896
+## t2* -0.1578447 -0.00030823 0.007404467
+</code></pre><p>The <a href="http://bit.ly/R_summary" target="_blank">summary()</a> function be used to compute standard errors for the regression coefficients.</p>
+<pre><code class="lang-r">summary(lm(mpg ~ horsepower, data = Auto))$coef
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:right">Estimate</th>
+<th style="text-align:right">Std. Error</th>
+<th style="text-align:right">t value</th>
+<th style="text-align:right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">(Intercept)</td>
+<td style="text-align:right">39.9358610</td>
+<td style="text-align:right">0.7174987</td>
+<td style="text-align:right">55.65984</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td style="text-align:left">horsepower</td>
+<td style="text-align:right">-0.1578447</td>
+<td style="text-align:right">0.0064455</td>
+<td style="text-align:right">-24.48914</td>
+<td style="text-align:right">0</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, we redefine the bootstrap function to use a quadratic model and compare the standard errors that from bootstrap to the ones obtained from the <a href="http://bit.ly/R_summary" target="_blank">summary()</a> function.</p>
+<pre><code class="lang-r">boot.fn &lt;- <span class="hljs-keyword">function</span>(data, index) 
+  coefficients(lm(mpg ~ horsepower + I(horsepower^<span class="hljs-number">2</span>), data = data, subset = index))
+
+set.seed(<span class="hljs-number">1</span>)
+boot(Auto, boot.fn, <span class="hljs-number">1000</span>)
+</code></pre>
+<pre><code>## 
+## ORDINARY NONPARAMETRIC BOOTSTRAP
+## 
+## 
+## Call:
+## boot(data = Auto, statistic = boot.fn, R = 1000)
+## 
+## 
+## Bootstrap Statistics :
+##         original        bias     std. error
+## t1* 56.900099702  6.098115e-03 2.0944855842
+## t2* -0.466189630 -1.777108e-04 0.0334123802
+## t3*  0.001230536  1.324315e-06 0.0001208339
+</code></pre><pre><code class="lang-r">summary(lm(mpg ~ horsepower + I(horsepower^<span class="hljs-number">2</span>), data = Auto))$coef
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:right">Estimate</th>
+<th style="text-align:right">Std. Error</th>
+<th style="text-align:right">t value</th>
+<th style="text-align:right">Pr(&gt;|t|)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">(Intercept)</td>
+<td style="text-align:right">56.9000997</td>
+<td style="text-align:right">1.8004268</td>
+<td style="text-align:right">31.60367</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td style="text-align:left">horsepower</td>
+<td style="text-align:right">-0.4661896</td>
+<td style="text-align:right">0.0311246</td>
+<td style="text-align:right">-14.97816</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td style="text-align:left">I(horsepower^2)</td>
+<td style="text-align:right">0.0012305</td>
+<td style="text-align:right">0.0001221</td>
+<td style="text-align:right">10.08009</td>
+<td style="text-align:right">0</td>
+</tr>
+</tbody>
+</table>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../week3/index.html" class="navigation navigation-prev " aria-label="Previous page: Chapter 5. Resampling Methods"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../ISLR/chapter5/solutions.html" class="navigation navigation-next " aria-label="Next page: Solutions"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
